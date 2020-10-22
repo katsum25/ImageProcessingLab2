@@ -39,7 +39,7 @@ def Medianfilter():
 	cv2.imshow('Image', img)
 	cv2.waitKey(0)
 	e1 = cv2.getTickCount()
-	result = calcNewImage(image = img)
+	result = median_filter(image = img)
 	e2 = cv2.getTickCount()
 	time = (e2 - e1) / cv2.getTickFrequency()
 	print(time,"sec")
