@@ -39,7 +39,6 @@ def calcNewPixelColor(image, x, y):
 	vector[7] = source[x,y+1]
 	vector[8] = source[x+1,y+1]
 	sortvec(vector, 9)
-	#vector[4] = [0,0,0]
 	return vector[4]
 
 def sortvec(vec , n):
