@@ -35,7 +35,7 @@ def Noise():
 
 def Medianfilter():
 #task 2
-	img = cv2.imread('images/noise.jpg')
+	img = cv2.imread('images/okaNoise.jpg')
 	cv2.imshow('Image', img)
 	cv2.waitKey(0)
 	e1 = cv2.getTickCount()
